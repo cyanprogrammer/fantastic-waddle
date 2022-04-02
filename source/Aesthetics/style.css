@@ -1,0 +1,26 @@
+@font-face {
+	src: url(Aesthetics/C64.ttf);
+	font-family: c64
+}
+p {
+	padding: 10px;
+}
+   
+.header { 
+	border:  2px dashed #FF9800;
+}
+.ascii {
+	animation-name: rotate;
+	animation-duration: 7s;
+	  animation-iteration-count: infinite;
+}
+html, body {
+	background-color: #D9E3F0;
+	color: #FF9800;
+	font-family: c64;
+	text-align: center
+}
+@keyframes rotate {
+	from {transform: rotateY(0deg)}
+	to {transform: rotateY(360deg)}
+}
